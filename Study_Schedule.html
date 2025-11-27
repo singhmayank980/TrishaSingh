@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Schedule - 15 Day Plan (Modified)</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 20px; }
+        .container { max-width: 1600px; margin: 0 auto; background: white; border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3); overflow: hidden; }
+        header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 40px; text-align: center; }
+        h1 { font-size: 2.8em; margin-bottom: 15px; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); }
+        .header-info { font-size: 1.1em; margin-top: 10px; }
+        .warning-box { background: #fff3cd; color: #856404; padding: 15px; border-radius: 8px; margin-top: 15px; border: 2px solid #ffc107; }
+        .section { padding: 40px; }
+        h2 { color: #667eea; margin-bottom: 25px; padding-bottom: 10px; border-bottom: 3px solid #667eea; font-size: 2em; }
+        table { width: 100%; border-collapse: collapse; margin: 25px 0; box-shadow: 0 4px 15px rgba(0,0,0,0.1); background: white; }
+        thead { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; }
+        th { padding: 18px 15px; text-align: left; font-weight: 600; font-size: 0.95em; letter-spacing: 0.5px; }
+        td { padding: 15px; border-bottom: 1px solid #f0f0f0; vertical-align: top; }
+        tbody tr:hover { background-color: #f8f9ff; transform: scale(1.01); transition: all 0.2s ease; }
+        .day-cell { font-weight: bold; font-size: 1.1em; color: #667eea; text-align: center; }
+        .date-cell { font-weight: 600; color: #764ba2; white-space: nowrap; }
+        .unavailable { background-color: #f8d7da !important; color: #721c24; font-style: italic; text-align: center; padding: 20px; }
+        .subject-name { font-weight: bold; color: #667eea; margin-bottom: 8px; font-size: 1.05em; }
+        .chapter-item { margin: 5px 0; padding-left: 5px; line-height: 1.8; }
+        .priority-high { color: #856404; font-weight: 600; }
+        .priority-medium { color: #0c5460; font-weight: 500; }
+        .priority-low { color: #155724; }
+        .chapter-count { background: #667eea; color: white; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 600; display: inline-block; }
+        .status-complete { color: #28a745; font-weight: bold; }
+        .status-priority { color: #ffc107; font-weight: bold; }
+        .status-self { color: #6c757d; font-weight: bold; }
+        .tips-section { background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 40px; margin-top: 20px; }
+        @media (max-width: 1024px) { .container { margin: 10px; } table { font-size: 0.9em; } th, td { padding: 10px; } }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📅 Study Schedule (Modified)</h1>
+            <div class="header-info">
+                <strong>Duration:</strong> 28 November 2025 - 12 December 2025 (15 Days)<br>
+                <strong>Total Coverage:</strong> 140 Chapters across 9 Subjects<br>
+                <strong>Effective Study Days:</strong> 12.5 days (due to unavailability)
+            </div>
+            <div class="warning-box">
+                <strong>⚠️ Schedule Constraints:</strong> 28 Nov evening unavailable | 29-30 Nov mornings unavailable
+            </div>
+        </header>
+
+        <div class="section">
+            <h2>📊 Modified 15-Day Study Plan</h2>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th style="width: 5%;">Day</th>
+                        <th style="width: 10%;">Date</th>
+                        <th style="width: 10%;">Day</th>
+                        <th style="width: 32%;">Morning (Practical) 9 AM - 1 PM</th>
+                        <th style="width: 5%;">Ch</th>
+                        <th style="width: 33%;">Evening (Theory) 5 PM - 9 PM</th>
+                        <th style="width: 5%;">Ch</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    <tr>
+                        <td class="day-cell">1</td>
+                        <td class="date-cell">28 Nov</td>
+                        <td>Thursday</td>
+                        <td>
+                            <div class="subject-name">Tax</div>
+                            <div class="chapter-item priority-high">⭐⭐⭐ Income under head Salary (Ch-4)</div>
+                            <div class="chapter-item priority-high">⭐⭐⭐ Income under head House Property (Ch-5)</div>
+                        </td>
+                        <td><span class="chapter-count">2</span></td>
+                        <td class="unavailable">
+                            <strong>UNAVAILABLE</strong><br>
+                            <em>Rest/Personal time</em>
+                        </td>
+                        <td><span class="chapter-count">-</span></td>
+                    </tr>
+
+                    <tr>
+                        <td class="day-cell">2</td>
+                        <td class="date-cell">29 Nov</td>
+                        <td>Friday</td>
+                        <td class="unavailable">
+                            <strong>UNAVAILABLE</strong><br>
+                            <em>Rest/Personal time</em>
+                        </td>
+                        <td><span class="chapter-count">-</span></td>
+                        <td>
+                            <div class="subject-name">JIGL</div>
+                            <div class="chapter-item priority-high">⭐⭐⭐ Constitution of India (COI)</div>
+                            <div class="chapter-item priority-high">⭐⭐⭐ Law of Torts</div>
+                        </td>
+                        <td><span class="chapter-count">2</span></td>
+                    </tr>
+
+                    <tr>
+                        <td class="day-cell">3</td>
+                        <td class="date-cell">30 Nov</td>
+                        <td>Saturday</td>
+                        <td class="unavailable">
+                            <strong>UNAVAILABLE</strong><br>
+                            <em>Rest/Personal time</em>
+                        </td>
+                        <td><span class="chapter-count">-</span></td>
+                        <td>
+                            <div class="subject-name">JIGL</div>
+                            <div class="chapter-item priority-high">⭐⭐⭐ Contract Law</div>
+                            <div class="chapter-item priority-high">⭐⭐⭐ Civil Procedure (CPC)</div>
+                            <div class="chapter-item priority-high">⭐⭐⭐ Criminal Laws</div>
+                        </td>
+                        <td><span class="chapter-count">3</span></td>
+                    </tr>
+
+                    <tr>
+                        <td class="day-cell">4</td>
+                        <td class="date-cell">1 Dec</td>
+                        <td>Sunday</td>
+                        <td>
+                            <div class="subject-name">Tax</div>
+                            <div class="chapter-item priority-high">⭐⭐⭐ Profits & Gains from Business (Ch-6)</div>
+                            <div class="chapter-item priority-high">⭐⭐⭐ Capital Gains (Ch-7)</div>
+                        </td>
+                        <td><span class="chapter-count">2</span></td>
+                        <td>
+                            <div class="subject-name">JIGL</div>
+                            <div class="chapter-item priority-medium">⭐⭐ Negotiable Instruments</div>
+                            <div class="chapter-item priority-medium">⭐⭐ RTI</div>
+                            <div class="chapter-item priority-medium">⭐⭐ Arbitration, Mediation & Conciliation</div>
+                        </td>
+                        <td><span class="chapter-count">3</span></td>
+                    </tr>
+
+                    <tr>
+                        <td class="day-cell">5</td>
+                        <td class="date-cell">2 Dec</td>
+                        <td>Monday</td>
+                        <td>
+                            <div class="subject-name">Tax</div>
+                            <div class="chapter-item priority-high">⭐⭐⭐ Income from Other Sources (Ch-8)</div>
+                            <div class="chapter-item priority-high">⭐⭐⭐ Clubbing & Set off/Carry forward (Ch-9)</div>
+                        </td>
+                        <td><span class="chapter-count">2</span></td>
+                        <td>
+                            <div class="subject-name">JIGL</div>
+                            <div class="chapter-item priority-medium">⭐⭐ Limitation</div>
+                            <div class="chapter-item priority-medium">⭐⭐ Administrative Laws</div>
+                            <div class="chapter-item priority-low">⭐ Interpretation of Statutes</div>
+                            <div class="chapter-item priority-low">⭐ Sources of Law</div>
+                        </td>
+                        <td><span class="chapter-count">4</span></td>
+                    </tr>
+
+                    <tr>
+                        <td class="day-cell">6</td>
+                        <td class="date-cell">3 Dec</td>
+                        <td>Tuesday</td>
+                        <td>
+                            <div class="subject-name">Tax</div>
+                            <div class="chapter-item priority-high">⭐⭐⭐ Deductions (Ch-10)</div>
+                            <div class="chapter-item priority-high">⭐⭐⭐ Computation of Total Income (Ch-11)</div>
+                        </td>
+                        <td><span class="chapter-count">2</span></td>
+                        <td>
+                            <div class="subject-name">JIGL + Company Law</div>
+                            <div class="chapter-item priority-low">⭐ IT Act</div>
+                            <div class="chapter-item priority-low">📚 Evidence</div>
+                            <div class="chapter-item priority-high">⭐⭐⭐ General Meetings</div>
+                        </td>
+                        <td><span class="chapter-count">3</span></td>
+                    </tr>
+
+                    <tr>
+                        <td class="day-cell">7</td>
+                        <td class="date-cell">4 Dec</td>
+                        <td>Wednesday</td>
+                        <td>
+                            <div class="subject-name">Accounts</div>
+                            <div class="chapter-item priority-high">⭐⭐⭐ Accounting for Share Capital (Ch-4)</div>
+                            <div class="chapter-item priority-high">⭐⭐⭐ Accounting for Debentures (Ch-5)</div>
+                        </td>
+                        <td><span class="chapter-count">2</span></td>
+                        <td>
+                            <div class="subject-name">Company Law</div>
+                            <div class="chapter-item priority-high">⭐⭐⭐ Directors (Appointment)</div>
+                            <div class="chapter-item priority-high">⭐⭐⭐ Meetings of Board & Committees</div>
+                        </td>
+                        <td><span class="chapter-count">2</span></td>
+                    </tr>
+
+                    <tr>
+                        <td class="day-cell">8</td>
+                        <td class="date-cell">5 Dec</td>
+                        <td>Thursday</td>
+                        <td>
+                            <div class="subject-name">Accounts</div>
+                            <div class="chapter-item priority-high">⭐⭐⭐ Related Aspects of Company Accounts (Ch-6)</div>
+                            <div class="chapter-item priority-high">⭐⭐⭐ Consolidation of Accounts (Ch-7)</div>
+                        </td>
+                        <td><span class="chapter-count">2</span></td>
+                        <td>
+                            <div class="subject-name">Company Law</div>
+                            <div class="chapter-item priority-high">⭐⭐⭐ KMP's & Remuneration</div>
+                            <div class="chapter-item priority-medium">⭐⭐ MOA & AOA</div>
+                        </td>
+                        <td><span class="chapter-count">2</span></td>
+                    </tr>
+
+                    <tr>
+                        <td class="day-cell">9</td>
+                        <td class="date-cell">6 Dec</td>
+                        <td>Friday</td>
+                        <td>
+                            <div class="subject-name">Accounts</div>
+                            <div class="chapter-item priority-high">⭐⭐⭐ Financial Statement Analysis (Ch-8)</div>
+                            <div class="chapter-item priority-high">⭐⭐⭐ Cash Flows (Ch-9)</div>
+                        </td>
+                        <td><span class="chapter-count">2</span></td>
+                        <td>
+                            <div class="subject-name">Company Law</div>
+                            <div class="chapter-item priority-medium">⭐⭐ Debt Instruments</div>
+                            <div class="chapter-item priority-medium">⭐⭐ Charges</div>
+                            <div class="chapter-item priority-medium">⭐⭐ Members & Shareholders</div>
+                        </td>
+                        <td><span class="chapter-count">3</span></td>
+                    </tr>
+
+                    <tr>
+                        <td class="day-cell">10</td>
+                        <td class="date-cell">7 Dec</td>
+                        <td>Saturday</td>
+                        <td>
+                            <div class="subject-name">Accounts + FM</div>
+                            <div class="chapter-item priority-high">⭐⭐⭐ Forecasting Financial Statements (Ch-10)</div>
+                            <div class="chapter-item priority-high">⭐⭐⭐ Cost of Capital (Ch-14) - FM</div>
+                        </td>
+                        <td><span class="chapter-count">2</span></td>
+                        <td>
+                            <div class="subject-name">Company Law + CMSL</div>
+                            <div class="chapter-item priority-medium">⭐⭐ Compromise & Amalgamations</div>
+                            <div class="chapter-item priority-high">⭐⭐⭐ ICDR</div>
+                        </td>
+                        <td><span class="chapter-count">2</span></td>
+                    </tr>
+
+                    <tr>
+                        <td class="day-cell">11</td>
+                        <td class="date-cell">8 Dec</td>
+                        <td>Sunday</td>
+                        <td>
+                            <div class="subject-name">FM</div>
+                            <div class="chapter-item priority-high">⭐⭐⭐ Working Capital Management (Ch-17)</div>
+                            <div class="chapter-item priority-medium">⭐⭐ Capital Budgeting (Ch-13)</div>
+                        </td>
+                        <td><span class="chapter-count">2</span></td>
+                        <td>
+                            <div class="subject-name">CMSL</div>
+                            <div class="chapter-item priority-high">⭐⭐⭐ LODR</div>
+                            <div class="chapter-item priority-high">⭐⭐⭐ Mutual Funds</div>
+                            <div class="chapter-item priority-high">⭐⭐⭐ Insider Trading</div>
+                        </td>
+                        <td><span class="chapter-count">3</span></td>
+                    </tr>
+
+                    <tr>
+                        <td class="day-cell">12</td>
+                        <td class="date-cell">9 Dec</td>
+                        <td>Monday</td>
+                        <td>
+                            <div class="subject-name">FM + Tax</div>
+                            <div class="chapter-item priority-medium">⭐⭐ Operational Approach (Ch-19) - FM</div>
+                            <div class="chapter-item priority-high">⭐⭐⭐ Classification & Tax on Companies (Ch-12)</div>
+                        </td>
+                        <td><span class="chapter-count">2</span></td>
+                        <td>
+                            <div class="subject-name">CMSL</div>
+                            <div class="chapter-item priority-high">⭐⭐⭐ Secondary Market</div>
+                            <div class="chapter-item priority-medium">⭐⭐ SCRA</div>
+                            <div class="chapter-item priority-medium">⭐⭐ Depositories</div>
+                        </td>
+                        <td><span class="chapter-count">3</span></td>
+                    </tr>
+
+                    <tr>
+                        <td class="day-cell">13</td>
+                        <td class="date-cell">10 Dec</td>
+                        <td>Tuesday</td>
+                        <td>
+                            <div class="subject-name">Tax + Accounts</div>
+                            <div class="chapter-item priority-high">⭐⭐⭐ Procedural Compliance (Ch-13)</div>
+                            <div class="chapter-item priority-medium">⭐⭐ Intro to Accounting (Ch-1)</div>
+                        </td>
+                        <td><span class="chapter-count">2</span></td>
+                        <td>
+                            <div class="subject-name">CMSL + ECIPL</div>
+                            <div class="chapter-item priority-medium">⭐⭐ SEBI</div>
+                            <div class="chapter-item priority-high">⭐⭐⭐ FEMA</div>
+                            <div class="chapter-item priority-high">⭐⭐⭐ RESA</div>
+                        </td>
+                        <td><span class="chapter-count">3</span></td>
+                    </tr>
+
+                    <tr>
+                        <td class="day-cell">14</td>
+                        <td class="date-cell">11 Dec</td>
+                        <td>Wednesday</td>
+                        <td>
+                            <div class="subject-name">Accounts + FM</div>
+                            <div class="chapter-item priority-medium">⭐⭐ Intro to Corporate Accounting (Ch-2)</div>
+                            <div class="chapter-item priority-medium">⭐⭐ Accounting Standards (Ch-3)</div>
+                            <div class="chapter-item priority-low">⭐ Introduction (Ch-11) - FM</div>
+                        </td>
+                        <td><span class="chapter-count">3</span></td>
+                        <td>
+                            <div class="subject-name">ECIPL</div>
+                            <div class="chapter-item priority-high">⭐⭐⭐ Competition Law</div>
+                            <div class="chapter-item priority-high">⭐⭐⭐ Consumer Protection (CAPA)</div>
+                            <div class="chapter-item priority-medium">⭐⭐ SEZ</div>
+                        </td>
+                        <td><span class="chapter-count">3</span></td>
+                    </tr>
+
+                    <tr>
+                        <td class="day-cell">15</td>
+                        <td class="date-cell">12 Dec</td>
+                        <td>Thursday</td>
+                        <td>
+                            <div class="subject-name">Tax + FM</div>
+                            <div class="chapter-item priority-medium">⭐⭐ Direct Taxes – At a Glance (Ch-1)</div>
+                            <div class="chapter-item priority-medium">⭐⭐ Basic Concept of Income Tax (Ch-2)</div>
+                            <div class="chapter-item priority-medium">⭐⭐ Incomes not part of Total Income (Ch-3)</div>
+                        </td>
+                        <td><span class="chapter-count">3</span></td>
+                        <td>
+                            <div class="subject-name">ECIPL + SBILL + GST</div>
+                            <div class="chapter-item priority-medium">⭐⭐ Money Laundering</div>
+                            <div class="chapter-item priority-high">⭐⭐⭐ Business Organization - SBILL</div>
+                            <div class="chapter-item priority-low">Introduction to GST</div>
+                        </td>
+                        <td><span class="chapter-count">3</span></td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+
+        <div class="section">
+            <h2>📈 Subject-wise Coverage Summary</h2>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Subject</th>
+                        <th>Type</th>
+                        <th>Total</th>
+                        <th>Covered</th>
+                        <th>Priority Covered</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Tax</strong></td>
+                        <td>Practical</td>
+                        <td>13</td>
+                        <td>13</td>
+                        <td>All priorities</td>
+                        <td class="status-complete">✅ Complete</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Accounts</strong></td>
+                        <td>Practical</td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>All priorities</td>
+                        <td class="status-complete">✅ Complete</td>
+                    </tr>
+                    <tr>
+                        <td><strong>FM</strong></td>
+                        <td>Practical</td>
+                        <td>9</td>
+                        <td>5</td>
+                        <td>AAA + AA priorities</td>
+                        <td class="status-priority">⭐ High Priority (4 self-study)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>JIGL</strong></td>
+                        <td>Theory</td>
+                        <td>14</td>
+                        <td>14</td>
+                        <td>All priorities</td>
+                        <td class="status-complete">✅ Complete</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Company Law</strong></td>
+                        <td>Theory</td>
+                        <td>19</td>
+                        <td>13</td>
+                        <td>All AAA + AA</td>
+                        <td class="status-priority">⭐ High Priority</td>
+                    </tr>
+                    <tr>
+                        <td><strong>CMSL</strong></td>
+                        <td>Theory</td>
+                        <td>18</td>
+                        <td>8</td>
+                        <td>All AAA + 3 AA</td>
+                        <td class="status-priority">⭐ High Priority</td>
+                    </tr>
+                    <tr>
+                        <td><strong>ECIPL</strong></td>
+                        <td>Theory</td>
+                        <td>20</td>
+                        <td>6</td>
+                        <td>4 Category A + 2 Part A</td>
+                        <td class="status-priority">⭐ High Priority</td>
+                    </tr>
+                    <tr>
+                        <td><strong>SBILL</strong></td>
+                        <td>Theory</td>
+                        <td>20</td>
+                        <td>1</td>
+                        <td>Part A Overview</td>
+                        <td class="status-self">📚 Self-Study</td>
+                    </tr>
+                    <tr>
+                        <td><strong>GST</strong></td>
+                        <td>Theory</td>
+                        <td>17</td>
+                        <td>1</td>
+                        <td>Overview</td>
+                        <td class="status-self">📚 Self-Study</td>
+                    </tr>
+                    <tr style="background-color: #f8f9fa; font-weight: bold;">
+                        <td><strong>TOTAL</strong></td>
+                        <td>-</td>
+                        <td><strong>140</strong></td>
+                        <td><strong>71</strong></td>
+                        <td><strong>All Critical</strong></td>
+                        <td class="status-complete"><strong>✅ Optimized</strong></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="tips-section">
+            <h2>💡 Study Tips & Strategy</h2>
+            <div style="background: white; padding: 25px; border-radius: 10px; margin-top: 20px;">
+                <h3 style="color: #667eea; margin-bottom: 15px;">Modified Strategy (Due to Constraints)</h3>
+                <ul style="line-height: 2;">
+                    <li><strong>Day 1 (28 Nov):</strong> Morning only - Start with Tax (2 chapters)</li>
+                    <li><strong>Days 2-3 (29-30 Nov):</strong> Evenings only - Complete JIGL high priority (5 chapters)</li>
+                    <li><strong>Days 4-6:</strong> Full days - Complete Tax + JIGL + Start Company Law</li>
+                    <li><strong>Days 7-10:</strong> Full days - Complete Accounts + Start FM + Company Law + Start CMSL</li>
+                    <li><strong>Days 11-15:</strong> Full days - Complete practicals + CMSL + ECIPL + Overview</li>
+                </ul>
+                
+                <h3 style="color: #dc3545; margin: 25px 0 15px;">⚠️ Constraints Handled</h3>
+                <ul style="line-height: 2;">
+                    <li>✅ <strong>28 Nov evening unavailable</strong> - Removed, started with morning Tax only</li>
+                    <li>✅ <strong>29 Nov morning unavailable</strong> - Removed, only evening JIGL</li>
+                    <li>✅ <strong>30 Nov morning unavailable</strong> - Removed, only evening JIGL (extended)</li>
+                    <li>⚠️ <strong>Lost 2.5 study sessions</strong> - Compensated by longer sessions and self-study</li>
+                </ul>
+                
+                <h3 style="color: #28a745; margin: 25px 0 15px;">✅ Success Tips</h3>
+                <ul style="line-height: 2;">
+                    <li>Complete all Tax & Accounts - Maximum practical marks</li>
+                    <li>JIGL fully covered - Complete one theory subject mastery</li>
+                    <li>Cover all AAA/A priority chapters - 70-80% exam coverage</li>
+                    <li>Use self-study for FM low priority - 4 chapters only</li>
+                    <li>Weekend intensive sessions - Make up for lost time</li>
+                    <li>Daily revision crucial - Retain what you learned</li>
+                </ul>
+            </div>
+        </div>
+
+        <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 30px; text-align: center;">
+            <h2 style="color: white; border: none;">🎓 Adjusted Schedule Optimized for Your Availability!</h2>
+            <p style="font-size: 1.1em; margin-top: 10px;">Stay focused, stay consistent, and success will follow! 💪</p>
+        </div>
+    </div>
+</body>
+</html>
